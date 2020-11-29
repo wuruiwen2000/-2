@@ -13,4 +13,6 @@ https://github.com/wuruiwen2000/-2/blob/master/lecture10%E4%BD%9C%E4%B8%9A/%E4%B
 读取代码如下:
 https://github.com/wuruiwen2000/-2/blob/master/lecture10%E4%BD%9C%E4%B8%9A/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E4%B8%9A/%E8%AF%BE%E5%A0%82%E4%BD%9C%E4%B8%9A/ReadIt.php  
 读取结果：  
+[!image](https://github.com/wuruiwen2000/-2/blob/master/lecture10%E4%BD%9C%E4%B8%9A/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E4%B8%9A/%E8%AF%BE%E5%A0%82%E4%BD%9C%E4%B8%9A/10-1.PNG)
+[!image](https://github.com/wuruiwen2000/-2/blob/master/lecture10%E4%BD%9C%E4%B8%9A/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E4%B8%9A/%E8%AF%BE%E5%A0%82%E4%BD%9C%E4%B8%9A/10-2.PNG)
 
