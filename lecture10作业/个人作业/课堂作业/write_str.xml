@@ -1,0 +1,18 @@
+<studentcareer>
+	<period>
+		<user_id>1</user_id>
+		<user_name>ABC1</user_name>
+		<password>123456</password>
+		<email>111@163.com</email>
+		<duty>1</duty>
+		<field>science</field>
+	</period>
+	<period>
+		<user_id>2</user_id>
+		<user_name>ABC</user_name>
+		<password>0301</password>
+		<email>222@163.com</email>
+		<duty>0</duty>
+		<field>1</field>
+	</period>
+</studentcareer>
