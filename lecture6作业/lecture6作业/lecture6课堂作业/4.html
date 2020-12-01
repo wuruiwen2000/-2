@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JCompare</title>
+<link rel="stylesheet" type="text/css"	href="jqgrid/jquery.ui/css/base/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="jqgrid/css/ui.jqgrid.css">
+<script type="text/javascript" src="jqgrid/jquery.ui/js/jquery-ui.js"></script>
+<script type="text/javascript" src="jqgrid/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="jqgrid/js/i18n/grid.locale-cn.js"></script>
+<script type="text/javascript" src="jqgrid/js/jquery.jqGrid.min.js"></script>
+
+</head>
+<body>
+<table id="list"></table> 
+<div id="pager"></div>
+<script type="text/javascript" >
+$("#list").jqGrid({ 
+  caption: '中英数据对照表', 
+  url:'server.php', 
+  datatype: "json", 
+    colNames:['序号','中文','英文',], 
+    colModel:[ 
+      {name:'zh',index:'zh', width:80,align:'center'}, 
+      {name:'en',index:'en', width:180}, 
+  
+      {name:'opt',index:'opt', width:80, sortable:false, align:'center'}     
+    ], 
+    rowNum:10, 
+    rowList:[10,20,30], 
+    pager: '#pager', 
+    sortname: 'id', 
+  autowidth: true, 
+  height:280, 
+  viewrecords: true, 
+  multiselect: true, 
+  multiselectWidth: 25, 
+  sortable:true, 
+  sortorder: "asc"
+ });
+</script>
+</body>
+</html>
+
+ 
