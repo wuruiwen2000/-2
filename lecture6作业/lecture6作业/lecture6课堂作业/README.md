@@ -9,18 +9,11 @@
 （2）引用同正常的引用一样，对应html文件引用，区分路径就可以  
 （3）下载的版本可能不同，需要对于引用的内容进行适当修改  
 
-步骤1：
-建立前端html
-html部分：
+需要准备中文双语数据
 
-<div id="opt">
- <div id="query">
- <label>编号：</label><input type="text" class="input" id="sn" />
- <label>名称：</label><input type="text" class="input" id="title" />
- <input type="submit" class="btn" id="find_btn" value="查 询" />
- </div>
- <input type="button" class="btn" id="add_btn" value="新 增" />
- <input type="button" class="btn" id="del_btn" value="删 除" />
-</div>
-<table id="list"></table>
-<div id="pager"></div>
+步骤1：
+1.jqgrid需要的js和css，看个人需要
+2.准备jqgrid页面容器div
+
+3.js加载个空表格，类型是local加载本地数据，json访问后台地址
+4.准备本地数据，数组里套对象，注意数据个数和列数对应，最后一列操作按钮列，由于没有name,可以不考虑
