@@ -1,14 +1,14 @@
 <?php
 $dbh = mysqli_connect("localhost","root","");
 mysqli_select_db($dbh,"meowcat");
-$q = "select team_id from teamtmtemp";
+$q = "select team_id from teampm";
 $result = mysqli_query($dbh,$q);     
 if(!$result){
-die('ÎŞ·¨¶ÁÈ¡Êı¾İ:'.mysqli_error());
+die('æ— æ³•è¯»å–æ•°æ®:'.mysqli_error());
 }
-while($row = mysqli_fetch_assoc($result)) {echo " <tr>
-                <td>{$row['team_id']}</td>";}
+while($row = mysqli_fetch_assoc($result)) {echo "<td> {$row['team_id']}</td><td></td><td><a href='../2.php?id={$row['team_id']}' ><button name= 'logup' type = 'submit'>æŸ¥çœ‹å…¨ä½“æˆå‘˜</button></td></tr>    ";}
+
 mysqli_close($dbh);
-/* ¹Ø±Õµ½mysqlÊı¾İ¿âµÄÁ¬½Ó */
-//ÕâÒ»¸öÓÃÀ´ÒëÕß¾­ÀíÏÔÊ¾µÄÍÅ¶ÓÁĞ±í:¼ÓÔØÍÅ¶ÓIDºÍ¡¾ÍÅ¶ÓÃû³Æ¡¿
+/* å…³é—­åˆ°mysqlæ•°æ®åº“çš„è¿æ¥ */
+//è¿™ä¸€ä¸ªç”¨æ¥è¯‘è€…ç»ç†æ˜¾ç¤ºçš„å›¢é˜Ÿåˆ—è¡¨:åŠ è½½å›¢é˜ŸIDå’Œã€å›¢é˜Ÿåç§°ã€‘
 ?>
