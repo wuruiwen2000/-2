@@ -5,4 +5,4 @@
 ##### jqGrid安装包（已打包上传，以后可以下载):
 ##### 全部代码如下：https://github.com/wuruiwen2000/-2/blob/master/lecture5%E4%BD%9C%E4%B8%9A/jgGrid_demo1.html
 ##### 最后结果如图：
-[!]image(https://github.com/wuruiwen2000/-2/blob/master/lecture5%E4%BD%9C%E4%B8%9A/jqGrid_demo1.PNG)
+！[image](https://github.com/wuruiwen2000/-2/blob/master/lecture5%E4%BD%9C%E4%B8%9A/jqGrid_demo1.PNG)
